@@ -1,0 +1,179 @@
+html{
+	margin:0;
+	padding:0;
+	border:0;
+}
+body{
+  padding: 0 4%  ; 
+  /*background: radial-gradient(circle, #310067 20%, black 100%);*/
+}
+
+}
+#nav-bar {
+
+}
+
+#nav-bar li{
+    float:left;	
+    list-style-type:none;
+    margin-bottom: 10px;
+    }
+
+#nav-bar li a{
+    width:2.2cm;
+    height:1.5cm;
+    font-family:arial;
+  	display:block;
+    text-decoration:none;
+    text-align: center;   
+}
+
+.turquoiseButton, .emeraldButton,.pumButton,.bluebutton,.yellowButton{
+  background-color:white;   
+  color:black; 
+  font-size: 16px;
+}
+
+.emeraldButton:hover{
+	background-color:#2ecc71;   
+   	color:white;
+   	box-shadow: 5px 5px 15px #888888;
+}
+.turquoiseButton:hover{
+  background-color:#1abc9c;   
+    color:white; 
+    box-shadow: 5px 5px 15px #888888;
+}
+.pumButton:hover{
+	background-color: #d35400;
+	color:white;
+	box-shadow: 5px 5px 15px #888888;
+}
+.blueButton:hover{
+  background-color:#2c3e50;   
+    color:white;
+    box-shadow: 5px 5px 15px #888888;
+}
+.yellowButton:hover{
+  background-color:#f1c40f;   
+    color:white;
+    box-shadow: 5px 5px 15px #888888;
+}
+.content{
+	font-family: arial;
+  font-size: 15px;
+	
+}
+.date{
+  font-style: italic;
+  clear: both;
+}
+#nav-bar li a {
+        transition: color 0.2s, background-color 0.3s;
+}
+
+#navIcon{
+  color:#3498db;
+}
+.memo{
+    width:70%;
+    clear: both;
+    outline: 1px dashed #98abb9;
+    color: #666;
+    display: :block;  
+    padding: 0px 27px 5px 10px;
+    
+    
+}
+.randomLink{
+  color: #3498db;
+  text-decoration:none;
+  font-style: italic;
+  font-size: 14px;
+}
+.projectTitle{  
+  color: #666;
+  text-decoration:none;
+  clear: both;
+}
+.footer{
+  position: fixed;
+  bottom:0;
+  right:25%;
+  background-color: #16a085;
+  opacity: 0.8;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+
+
+}
+.codeStyle{
+ outline: 1px dotted #98abb9;
+ display: block;
+ font-size: 12px;
+
+}
+.wrapper{
+  width:100%;
+  float: left;
+  padding-left: 0;
+}
+
+/*--------------Tabs------------------*/
+
+#Tabs ul {
+padding: 0px;
+margin: 0px;
+margin-left: 10px;
+list-style-type: none;
+}
+
+#Tabs ul li {
+display: inline-block;
+clear: none;
+float: left;
+height: 24px;
+}
+
+#Tabs ul li a {
+position: relative;
+display: block;
+margin-left: 6px;
+line-height: 24px;
+padding-left: 10px;
+background: #f6f6f6;
+z-index: 9999;
+border: 1px solid #ccc;
+border-bottom: 0px;
+
+/* The following four lines are to make the top left and top right corners of each tab rounded. */
+-moz-border-radius-topleft: 4px;
+border-top-left-radius: 4px;
+-moz-border-radius-topright: 4px;
+border-top-right-radius: 4px;
+/* end of rounded borders */
+
+width: 40px;
+color: #000000;
+text-decoration: none;
+
+}
+
+#Tabs ul li a:hover {
+  cursor:pointer;
+text-decoration: underline; // a very simple effect when hovering the mouse on tab
+}
+
+#Tabs #Content_Area { // this is the css class for the content displayed in each tab
+padding: 0 15px;
+clear:both;
+overflow:hidden;
+line-height:19px;
+position: relative;
+top: 20px;
+z-index: 5;
+height: 150px;
+overflow: hidden;
+}
