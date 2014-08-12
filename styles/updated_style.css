@@ -1,4 +1,7 @@
-.sub-title > a{
-	color: red;
+.side-bar-icon{
+	color:#428bca;
 }
 
+.top-bar{
+	margin-top: 20px;
+}
