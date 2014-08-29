@@ -35,6 +35,11 @@
 	color:#ddd;	
 	font-size: 17px;
 }
-.body-slides > li > img{
-	height:400px;
+
+.body-slides{
+	
+	width: 500px;
+	text-align: center;
+	
 }
+
