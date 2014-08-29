@@ -19,10 +19,12 @@
 	text-align: left;	
 }
 
-.free-blocks{
-	padding:80px 0;
+.free-text-blocks{
 	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 10px;
 	font-family: arial;		
+	font-size: 15px;
 }
 .bright-color{
 	color:#ddd;
@@ -33,7 +35,7 @@
 }
 
 .body-slides{
-	margin-top: 80px;
+	margin: 0 auto;
 	width: 500px;	
 	
 }
