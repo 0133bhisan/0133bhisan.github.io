@@ -32,6 +32,7 @@
 .masthead-text{
 	color:#ddd;	
 	font-size: 17px;
+	padding: 0px 20%;
 }
 
 .body-slides{
@@ -41,6 +42,7 @@
 }
 
 .descriptive-text{
-	font-size: 10px;
+	font-size: 12px;
+	padding: 0px 20%;
 }
 
